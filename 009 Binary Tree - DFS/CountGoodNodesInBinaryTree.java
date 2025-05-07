@@ -17,7 +17,8 @@ class Solution {
     int count = 0;
     public int goodNodes(TreeNode root) {
         if(root == null) return 0;
-		countGoodNodes(root, root.val);
+	countGoodNodes(root, root.val);
+	// System.gc();
         return count;
     }
 
